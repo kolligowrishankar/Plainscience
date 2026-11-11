@@ -76,3 +76,8 @@ motion, captions are word-by-word with real timestamps, the voice used
 `gpt-4o-mini-tts` + instructions (or the user's own recording), and the
 music is a real track, ducked, not a synthesized pad. If any of these is
 missing, the render is not ready - do not save it to the queue as final.
+
+## 5. Style (approved 2026-11-12)
+
+Before rendering, also read ../yt-style/SKILL.md and ../yt-style/STYLE_SHEET.md: captions, 3-2-1 badge, pacing, visuals and sound rules the owner approved and said to always follow. They add to, not replace, sections 1-4.
+
