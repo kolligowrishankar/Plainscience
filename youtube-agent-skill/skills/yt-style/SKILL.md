@@ -27,6 +27,12 @@ word-by-word captions, countdown badge, red-arrow callouts, constant cuts). The 
 7. Credits: every CC BY / CC BY-SA photo must be credited in the description (title, author, licence).
 8. Ending: close on the last fact, no "follow/subscribe" line.
 
+## Formats by slot
+- 06:00 runs (queue suffix -AM): ranked "N facts" format, as described above and in `STYLE_SHEET.md`.
+- 18:00 runs (queue suffix -PM): the "WHAT IF" story format in `WHATIF_FORMAT.md` (45-60 s, no countdown
+  badge, ambient music from `music/whatif/`). Its rules replace the N-facts-only rules for that run; captions
+  font, sourcing, copyright, render quality and loudness rules still apply.
+
 ## Reference implementation
 `reference/sample1_build.py` is the renderer used for sample 1 ("3 octopus facts that sound made up",
 uploaded private 2026-11-12). It shows beat mapping from Whisper word times, pause compression, kinetic captions,
